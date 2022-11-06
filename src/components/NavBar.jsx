@@ -4,30 +4,20 @@ const NavBar = () => {
   return (
     <nav>
       <Link to='/'>
-        Alyssa DeM
+        Alyssa
       </Link>
-      <ul>
-        <li>
-          <Link to='about'>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to='resume'>
-            Resume
-          </Link>
-        </li>
-        <li>
-          <Link to='projects'>
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link to='contact'>
-            Contact
-          </Link>
-        </li>
-      </ul>
+      <Link to='about'>
+        About
+      </Link>
+      <Link to='resume'>
+        Resume
+      </Link>
+      <Link to='projects'>
+        Projects
+      </Link>
+      <Link to='contact'>
+        Contact
+      </Link>
     </nav>
   )
 }
