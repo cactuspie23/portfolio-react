@@ -1,9 +1,7 @@
-import { projects } from "../data/projects"
 
-const Projects = () => {
+const ProjectsList = ({projects}) => {
   return (
     <>
-      <h1>Projects</h1>
       <ul>
         {projects.map(project => 
           <li>
@@ -15,4 +13,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default ProjectsList
