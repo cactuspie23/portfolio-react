@@ -4,7 +4,7 @@ export const projects = [
     description: 'A fun app where users can create their own Corgi and add it to a database. Built with Mongoose, Express, Node, CSS, and Google OAuth.',
     image: '',
     repositoryLink: 'https://github.com/cactuspie23/create-a-corgi',
-    deploymentLink: 'https://create-a-corgi.fly.dev/ti',
+    deploymentLink: 'https://create-a-corgi.fly.dev/',
   },
   {
     title: 'Slots of Terror',
@@ -14,7 +14,7 @@ export const projects = [
     deploymentLink: 'https://slotsofterror.netlify.app/',
   },
   {
-    title: 'Werk.',
+    title: 'Werk',
     description: '',
     image: '',
     repositoryLink: 'https://github.com/cactuspie23/werk-front-end',
@@ -25,7 +25,7 @@ export const projects = [
     description: 'The traditional game with a Halloween theme.',
     image: '',
     repositoryLink: 'https://github.com/cactuspie23/ttt-weekend',
-    deploymentLink: 'https://spooky-tic-tac-toe.netlify.app/s',
+    deploymentLink: 'https://spooky-tic-tac-toe.netlify.app/',
   },
   {
     title: 'Guinea Pig Collector',
