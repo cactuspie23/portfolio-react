@@ -1,0 +1,13 @@
+.introImg {
+  margin-top: 6vh;
+}
+
+.introHead {
+  font-size: 55px;
+}
+
+.intro {
+  display: inline-flex;
+  font-size: 30px;
+  width: 50%;
+}
