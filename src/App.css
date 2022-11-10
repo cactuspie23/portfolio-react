@@ -6,6 +6,10 @@ img {
 
 }
 
+h1 {
+  font-size: 50px;
+}
+
 .App {
   text-align: center;
   width: 100%;
