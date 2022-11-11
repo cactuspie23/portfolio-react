@@ -3,9 +3,15 @@ const Resume = () => {
     <>
       <h1>Resume</h1>
       <p>Get a copy of my resume here.</p>
-      <a href='/PublicAlyssaDeMartinisResume.pdf' download='AlyssaDeMartinisResume'>
-        <button>Download</button>
-      </a>
+      <embed
+        src="/AlyssaDeMartinisResume.pdf"
+        type="application/pdf"
+        frameBorder="0"
+        scrolling="auto"
+        height="80%"
+        width="60%"
+      ></embed>
+
     </>
   )
 }
