@@ -1,0 +1,19 @@
+.card {
+  width: 18rem; 
+  margin: 10px;
+  background-color: #2c2c3a;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 6px 4px#8ecca9b3;
+}
+
+.cardImg {
+  height: 210px;
+}
+
+.cardTitle {
+  color: #8ecca9;
+  font-size: 28px;
+}
