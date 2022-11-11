@@ -1,6 +1,7 @@
 nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   padding: 0px 15px;
   border-bottom: 1px solid #8ecca9;
@@ -8,15 +9,31 @@ nav {
   height: 80px;
 }
 
-.container {
-  padding: 5px;
+.home > img {
+  border: none;
+  height: 60px;
+  transition: 0.3s;
 }
 
-.container > a,
-.home {
+.home > img:hover {
+  box-shadow: 1px 1px 6px 4px#8ecca9b3;
+}
+
+.container {
+  padding: 15px;
+}
+
+.container > a {
   color: #8ecca9;
   text-decoration: none;
   font-weight: 500;
   font-size: 26px;
   margin: 0 1em;
+  transition: 0.6s;
+}
+
+.container > a:hover {
+  color: #2c2c3a;
+  background-color: #8ecca9b3;
+  box-shadow: 1px 1px 6px 6px#8ecca9b3;
 }

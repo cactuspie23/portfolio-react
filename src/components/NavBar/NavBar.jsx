@@ -5,17 +5,17 @@ const NavBar = () => {
   return (
     <nav>
       <NavLink to='/' className={styles.home}>
-        ALYSSA D.
+        <img src="/apple-touch-icon.png" alt="logo"/>
       </NavLink>
       <div className={styles.container}>
         <NavLink to='about'>
           ABOUT
         </NavLink>
-        <NavLink to='resume'>
-          RESUME
-        </NavLink>
         <NavLink to='projects'>
           PROJECTS
+        </NavLink>
+        <NavLink to='resume'>
+          RESUME
         </NavLink>
         <NavLink to='contact'>
           CONTACT
