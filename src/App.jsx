@@ -5,7 +5,7 @@ import About from './pages/About/About'
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import Projects from './pages/Projects'
-import ProjectDetails from './pages/ProjectDetails'
+import ProjectDetails from './pages/ProjectDetails/ProjectDetails'
 import './App.css'
 
 function App() {

@@ -1,4 +1,5 @@
-import findProject from "../utilities/findProject.js"
+import findProject from "../../utilities/findProject.js"
+import styles from './ProjectDetails.module.css'
 import { useParams } from "react-router-dom"
 
 const ProjectDetails = () => {
@@ -10,7 +11,7 @@ const ProjectDetails = () => {
     <div>
       <div>
         <h1>{project.title}</h1>
-        <img src={project.img} alt={project.title} />
+        <img src={project.image} alt={project.title} className={styles.projectImg} />
         <p>{project.description}</p>
         <a href={project.repositoryLink} rel="noreferrer" target="_blank">
           <button>GitHub</button>
