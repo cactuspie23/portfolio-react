@@ -1,3 +1,35 @@
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .projectImg {
-  height: 350px;
+  margin: 10px;
+  width: 60vw;
+  border-radius: 10px;
+}
+
+.desc {
+  width: 60vw;
+  font-size: 20px;
+}
+
+.btns {
+  margin: 10px;
+}
+
+.btns > a > button {
+  margin: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2c2c3a;
+  color: #8ecca9;
+  width: 80px;
+  height: 40px;
+  transition: 0.3s;
+}
+
+.btns > a > button:hover {
+  box-shadow: 1px 1px 6px 4px#8ecca9b3;
 }
