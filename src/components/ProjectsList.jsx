@@ -3,13 +3,11 @@ import ProjectPreview from "./ProjectPreview"
 const ProjectsList = ({projects}) => {
   return (
     <>
-      <ul>
+      <section>
         {projects.map((project, i) => 
-          <li>
-            <ProjectPreview key={i} title={project.title} image={project.image} />
-          </li>  
+          <ProjectPreview key={i} title={project.title} image={project.image} />
         )}
-      </ul>
+      </section>
     </>
   )
 }
