@@ -39,3 +39,10 @@ nav {
   background-color: #8ecca99e;
   box-shadow: 1px 1px 6px 6px#8ecca9b3;
 }
+
+@media all and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    height: 120px;
+  }
+}
