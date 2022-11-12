@@ -15,3 +15,14 @@
   border: 2px solid #8ecca9;
   max-height: 400px;
 }
+
+@media all and (max-width: 600px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about div {
+    max-width: 65%;
+    margin-top: 20px;
+  }
+}
