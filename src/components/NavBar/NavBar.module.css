@@ -45,4 +45,8 @@ nav {
     flex-direction: column;
     height: 120px;
   }
+
+  .container a {
+    margin: 0 11px;
+  }
 }
