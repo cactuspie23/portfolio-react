@@ -8,6 +8,7 @@
 .about > div {
   max-width: 40%;
   line-height: 1.7em;
+  text-align: justify;
 }
 
 .about > img {
