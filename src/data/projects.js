@@ -15,14 +15,14 @@ export const projects = [
   },
   {
     title: 'Werk',
-    description: '',
+    description: 'An app to track your job applications and skill progress while job searching. Created with a team using Mongoose, Express, React, Node, CSS.',
     image: '/images/werkhome.png',
     repositoryLink: 'https://github.com/cactuspie23/werk-front-end',
     deploymentLink: 'https://werk-smarter.netlify.app/',
   },
   {
     title: 'Tic Tac Toe',
-    description: 'The traditional game with a Halloween theme.',
+    description: 'The traditional game with a Halloween theme. Built with JavaScript and CSS.',
     image: '/images/ttt.png',
     repositoryLink: 'https://github.com/cactuspie23/ttt-weekend',
     deploymentLink: 'https://spooky-tic-tac-toe.netlify.app/',
