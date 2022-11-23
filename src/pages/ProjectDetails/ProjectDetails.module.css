@@ -6,7 +6,9 @@
 
 .projectImg {
   margin: 10px;
-  width: 60vw;
+  height: auto;
+  width: 100%;
+  max-width: 60vw;
   border-radius: 10px;
 }
 
