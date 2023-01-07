@@ -7,8 +7,8 @@ const Home = () => {
         <img src='images/profile.jpg' alt='Alyssa' />
       </div>
       <div>
-        <h1 className={styles.introHead}>Hi, my name is Alyssa DeMartinis</h1>
-        <p className={styles.intro}>I am a Software Engineer with a background in environmental biology, data entry, and customer service.</p>
+        <h1 className={styles.introHead}>I am Alyssa DeMartinis</h1>
+        <p className={styles.intro}>A Software Engineer with a background in environmental biology, data entry, and customer service.</p>
       </div>
     </>
   )
