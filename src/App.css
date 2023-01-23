@@ -11,7 +11,10 @@ p {
 .App {
   text-align: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  background-image: linear-gradient(#2c2c3a, #054e7e);
+  color: #434371;
+  color: #8ecca9;
 }
 
 .App-header {
