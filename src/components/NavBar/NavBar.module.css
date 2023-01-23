@@ -3,8 +3,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0px 15px;
-  background-color: #2c2c3a;
+  padding: 0px 1rem;
+  background-color: #2c2c3a27;
   height: 80px;
 }
 
@@ -19,7 +19,7 @@ nav {
 }
 
 .container {
-  padding: 15px;
+  padding: 1rem;
 }
 
 .container > a {
